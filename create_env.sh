@@ -5,7 +5,7 @@ set -e
 
 # Get the current folder name
 current_folder=$(basename "$(pwd)")
-venv_dir=".venv_${current_folder}"
+venv_dir=".${current_folder}"
 
 # Create the virtual environment
 echo "Creating a virtual environment in $venv_dir..."
