@@ -1,0 +1,5 @@
+pytube
+beautifulsoup4
+ffmpeg
+yt-dlp
+google-api-python-client
